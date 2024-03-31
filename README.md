@@ -48,8 +48,8 @@ text: Input text
 * example :
     curl -X 'GET' \
   'http://localhost:8000/process_text/?text=How%20are%20you%3F'
-  
- - **Additional Information**:
+
+  ##Additional Information :
 The languages directory contains language-specific functions for processing audio files. Currently, it supports Arabic, French, and English.
 The llm.py file contains the logic for generating text using the T5 model.
 The main.py file defines the FastAPI application and its endpoints.
